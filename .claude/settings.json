@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(curl -s --max-time 25 \"https://earthquake.usgs.gov/fdsnws/event/1/count?format=geojson&latitude=39.7&longitude=-104.9&maxradiuskm=100&minmagnitude=2.5&starttime=1900-01-01\")",
-      "Bash(curl -s --max-time 25 \"https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude=39.7&longitude=-104.9&maxradiuskm=100&minmagnitude=2.5&starttime=1900-01-01&orderby=magnitude&limit=1\")",
-      "Bash(curl -s http://localhost:3002/)"
-    ]
-  }
-}
