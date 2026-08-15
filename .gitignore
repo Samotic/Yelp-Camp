@@ -1,0 +1,35 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Local multer scratch files (uploads go to Cloudinary, not the repo)
+uploads/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Tool caches
+.qodo/
+.claude/settings.local.json
+
+
+node_modules/
+.env
+.vscode
+.vercel
+.vercelignore
+.vercel
